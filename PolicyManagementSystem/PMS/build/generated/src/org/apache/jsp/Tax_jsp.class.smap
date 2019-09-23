@@ -1,0 +1,24 @@
+SMAP
+Tax_jsp.java
+JSP
+*S JSP
+*F
++ 0 Tax.jsp
+Tax.jsp
++ 1 header.jsp
+header.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+1:51
+1#1,163:52
+2#0,44:214
+45,10:258
+55,3:269
+57,2:272
+59,4:274,3
+63,3:286
+66,2:290
+67,3:292
+1#2,53:294
+*E

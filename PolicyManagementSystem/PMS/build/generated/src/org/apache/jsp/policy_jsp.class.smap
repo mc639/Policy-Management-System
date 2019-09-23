@@ -1,0 +1,24 @@
+SMAP
+policy_jsp.java
+JSP
+*S JSP
+*F
++ 0 policy.jsp
+policy.jsp
++ 1 header.jsp
+header.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+1:51
+1#1,163:52
+2#0,77:214
+78,14:291
+92,3:306
+94,2:309
+96,9:311,3
+105,2:338
+107,2:341
+108,4:343
+1#2,53:346
+*E

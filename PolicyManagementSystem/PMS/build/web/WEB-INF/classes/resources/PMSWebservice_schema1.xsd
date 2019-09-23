@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://PMS_Webservice/" xmlns:tns="http://PMS_Webservice/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="checklogin" nillable="true" type="tns:checklogin"/>
+
+  <xs:element name="checkloginResponse" nillable="true" type="tns:checkloginResponse"/>
+
+  <xs:element name="getpolicy" nillable="true" type="tns:getpolicy"/>
+
+  <xs:element name="getpolicyResponse" nillable="true" type="tns:getpolicyResponse"/>
+
+  <xs:element name="getpolicy_plan" nillable="true" type="tns:getpolicyPlan"/>
+
+  <xs:element name="getpolicy_planResponse" nillable="true" type="tns:getpolicyPlanResponse"/>
+
+  <xs:element name="hello" nillable="true" type="tns:hello"/>
+
+  <xs:element name="helloResponse" nillable="true" type="tns:helloResponse"/>
+
+  <xs:element name="update_password" nillable="true" type="tns:updatePassword"/>
+
+  <xs:element name="update_passwordResponse" nillable="true" type="tns:updatePasswordResponse"/>
+
+  <xs:complexType name="updatePassword">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string" minOccurs="0"/>
+      <xs:element name="np" type="xs:string" minOccurs="0"/>
+      <xs:element name="op" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="updatePasswordResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getpolicy">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getpolicyResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="hello">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="helloResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="checklogin">
+    <xs:sequence>
+      <xs:element name="l" type="xs:string" minOccurs="0"/>
+      <xs:element name="p" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="checkloginResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getpolicyPlan">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getpolicyPlanResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

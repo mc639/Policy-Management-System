@@ -1,0 +1,17 @@
+SMAP
+Email_0020Validation_jsp.java
+JSP
+*S JSP
+*F
++ 0 Email Validation.jsp
+Email Validation.jsp
++ 1 header.jsp
+header.jsp
++ 2 footer.jsp
+footer.jsp
+*L
+1,4:52
+1#1,163:55
+4#0,25:217
+1#2,53:241
+*E
